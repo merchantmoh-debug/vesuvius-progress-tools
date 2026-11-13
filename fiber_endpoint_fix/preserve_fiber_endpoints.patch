@@ -1,0 +1,11 @@
+--- a/spiral-fitting/spiral_helpers.py
++++ b/spiral-fitting/spiral_helpers.py
+@@ -126,6 +126,8 @@
+     # keep cross-fiber link endpoints exact). Keeping a few extra, more closely
+     # spaced points is harmless to the strip/winding losses.
+     force_keep = set(force_keep or ())
++    if len(points):
++        force_keep.add(len(points) - 1)
+     if min_spacing <= 0 or len(points) <= 1:
+         keep = list(range(len(points)))
+         return (points, np.asarray(keep, dtype=np.int64)) if return_indices else points

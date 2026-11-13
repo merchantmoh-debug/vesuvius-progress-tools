@@ -1,0 +1,4 @@
+# Install in the same environment as Hecate's requirements.txt.
+# Use a separate environment from onnxruntime / onnxruntime-gpu installations.
+onnxruntime-directml==1.24.4
+onnx==1.23.2
