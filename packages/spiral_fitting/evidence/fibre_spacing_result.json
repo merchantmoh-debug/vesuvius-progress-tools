@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-24",
+  "scroll": "PHerc0813",
+  "steps_per_arm": 200,
+  "only_config_change": {
+    "pcl_fiber_min_point_spacing": [
+      40,
+      16
+    ]
+  },
+  "guides": [
+    {
+      "guide": "001",
+      "arms": {
+        "control": {
+          "file_sha256": "5f2670b79a880a766246870e8601e43190be8ee1233d865fd44570417a455025",
+          "evaluation_points": 1157,
+          "median_phase": 32.21598815917969,
+          "evaluation_median_absolute_deviation": 0.10466766357421875,
+          "evaluation_p90_absolute_deviation": 0.394461452960968,
+          "evaluation_max_absolute_deviation": 0.985107421875,
+          "full_phase_span": 1.9260482788085938
+        },
+        "dense": {
+          "file_sha256": "9d472b08913fc07ea6bd2db9fb5b8a3da2480a6d437956e90f46ad12533e1cf2",
+          "evaluation_points": 1157,
+          "median_phase": 32.31324005126953,
+          "evaluation_median_absolute_deviation": 0.031803131103515625,
+          "evaluation_p90_absolute_deviation": 0.08956756442785263,
+          "evaluation_max_absolute_deviation": 0.7111053466796875,
+          "full_phase_span": 0.8819007873535156
+        }
+      },
+      "dense_to_control_p90_ratio": 0.22706290755541922,
+      "halving_endpoint_pass": true
+    },
+    {
+      "guide": "002",
+      "arms": {
+        "control": {
+          "file_sha256": "1d3ee13ae0c3a27ff17d6540d4a350c1344c6338b154ef0e2259228ef7d82410",
+          "evaluation_points": 1164,
+          "median_phase": 32.0484504699707,
+          "evaluation_median_absolute_deviation": 0.10407066345214844,
+          "evaluation_p90_absolute_deviation": 0.3332761824131012,
+          "evaluation_max_absolute_deviation": 1.009185791015625,
+          "full_phase_span": 1.7484359741210938
+        },
+        "dense": {
+          "file_sha256": "306006ea4b1d904a10cc1de0745cad604ef01ab71eacdd2c68acad10c3b95351",
+          "evaluation_points": 1164,
+          "median_phase": 32.1883544921875,
+          "evaluation_median_absolute_deviation": 0.020246505737304688,
+          "evaluation_p90_absolute_deviation": 0.07613258063793182,
+          "evaluation_max_absolute_deviation": 0.16366958618164062,
+          "full_phase_span": 0.31485748291015625
+        }
+      },
+      "dense_to_control_p90_ratio": 0.228436908052326,
+      "halving_endpoint_pass": true
+    }
+  ],
+  "scope": "Model phase consistency at points excluded from both training memberships; not whole-sheet acceptance."
+}

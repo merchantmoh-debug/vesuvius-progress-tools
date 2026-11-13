@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-16",
+  "same_normalized_local_input": true,
+  "same_first_convolution": true,
+  "first_instance_norm_changed": true,
+  "shared_final_probability_difference": 0.19738,
+  "larger_context_relative_phase_disagreement_reduction": 0.428,
+  "scope": "The larger-context treatment did not improve the separate frozen w060 reading comparison. Stability is not accuracy."
+}

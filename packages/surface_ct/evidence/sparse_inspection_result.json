@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-16",
+  "scroll": "PHerc0800",
+  "peak_private_bytes": 248672256,
+  "avoided_full_cube_payload_bytes": 1868562432,
+  "chunks_used": 516,
+  "bounding_cube_chunks": 891,
+  "previous_planes_and_samples_exact": true,
+  "scope": "Sparse plane/point acquisition and storage; no physical interpretation is inferred from resource savings."
+}

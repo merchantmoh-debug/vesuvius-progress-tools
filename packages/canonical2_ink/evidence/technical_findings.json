@@ -1,0 +1,9 @@
+{
+  "anisotropic_sensitivity": {
+    "evidence_class": "Historical fine-reader control",
+    "strong_reference_pixels": 22629,
+    "strong_reference_pixels_retained_after_lateral_fourfold_averaging": 22629,
+    "strong_reference_pixels_retained_after_depth_averaging": 0,
+    "scope": "Fixed exposed fine-reader comparison. This does not establish a universal physical-resolution threshold."
+  }
+}

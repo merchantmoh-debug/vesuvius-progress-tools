@@ -1,0 +1,6 @@
+numpy>=1.26,<3
+scipy>=1.11,<2
+tifffile>=2024.1
+trimesh>=4,<5
+numba>=0.60
+requests>=2.31

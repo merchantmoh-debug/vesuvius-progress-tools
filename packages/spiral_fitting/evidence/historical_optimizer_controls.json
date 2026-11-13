@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "torch": "2.10.0+cpu",
+  "steps": [
+    {
+      "step": 1,
+      "active_coordinates": 0,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 2,
+      "active_coordinates": 3,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 3,
+      "active_coordinates": 3,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 4,
+      "active_coordinates": 5,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 5,
+      "active_coordinates": 5,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 6,
+      "active_coordinates": 5,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 7,
+      "active_coordinates": 8,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 8,
+      "active_coordinates": 8,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 9,
+      "active_coordinates": 8,
+      "parameter_exact": true,
+      "moments_exact": true
+    },
+    {
+      "step": 10,
+      "active_coordinates": 8,
+      "parameter_exact": true,
+      "moments_exact": true
+    }
+  ],
+  "extended_controls": [
+    {
+      "elements": 4096,
+      "steps": 9,
+      "parameters_and_moments_raw_bytes": "PASS",
+      "tail_coordinates_exercised": true
+    },
+    {
+      "elements": 49713,
+      "steps": 9,
+      "parameters_and_moments_raw_bytes": "PASS",
+      "tail_coordinates_exercised": true
+    }
+  ],
+  "scope": "Exact raw parameter and moment bytes against single-thread CPU AdamW in these fixed controls. Fresh state, zero weight decay and aligned physical-coordinate blocks are required.",
+  "source_sha256": "dced36ceb8c3a860edaaecbcb22a54d9b1ad1ad276ee8b88158ddc16f2a423c8"
+}

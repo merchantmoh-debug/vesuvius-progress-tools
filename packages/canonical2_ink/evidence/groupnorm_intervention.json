@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "group_norm_count": 10,
+  "original_replays_exact": true,
+  "baseline_frozen_replay": {
+    "pixels": 65536,
+    "mean_absolute": 0.0,
+    "maximum_absolute": 0.0,
+    "signed_mean": 0.0
+  },
+  "metrics": {
+    "known_pixels": {
+      "original_change": {
+        "pixels": 43008,
+        "mean_absolute": 0.3304263069516137,
+        "maximum_absolute": 0.597137451171875,
+        "signed_mean": -0.3304263069516137
+      },
+      "frozen_change": {
+        "pixels": 43008,
+        "mean_absolute": 0.1238013676234654,
+        "maximum_absolute": 0.380615234375,
+        "signed_mean": -0.1238013676234654
+      },
+      "signed_fraction_of_absolute_change_removed": 0.6253283560694385,
+      "candidate_frozen_mean": 0.6512270569801331
+    },
+    "source_backfilled": {
+      "original_change": {
+        "pixels": 18527,
+        "mean_absolute": 0.39726059907921546,
+        "maximum_absolute": 0.60498046875,
+        "signed_mean": -0.39726059907921546
+      },
+      "frozen_change": {
+        "pixels": 18527,
+        "mean_absolute": 0.1931636190751589,
+        "maximum_absolute": 0.392059326171875,
+        "signed_mean": -0.1931636190751589
+      },
+      "signed_fraction_of_absolute_change_removed": 0.5137609430110102,
+      "candidate_frozen_mean": 0.6800946593284607
+    },
+    "unresolved_context": {
+      "original_change": {
+        "pixels": 4001,
+        "mean_absolute": 0.3650283107933954,
+        "maximum_absolute": 0.59716796875,
+        "signed_mean": -0.3650283107933954
+      },
+      "frozen_change": {
+        "pixels": 4001,
+        "mean_absolute": 0.18545261450750594,
+        "maximum_absolute": 0.378173828125,
+        "signed_mean": -0.18545261450750594
+      },
+      "signed_fraction_of_absolute_change_removed": 0.4919500514784143,
+      "candidate_frozen_mean": 0.675216019153595
+    }
+  },
+  "scope": "Four controlled forwards on one exposed real tile; frozen statistics are a diagnostic intervention."
+}

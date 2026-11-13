@@ -1,0 +1,20 @@
+{
+  "frontier_behavior": {
+    "evidence_class": "Historical native-tool finding",
+    "intact_seed_outer_candidates": 68,
+    "vertices_before": 240,
+    "vertices_after": 1428,
+    "mechanism": "Empty outer grid borders prevented candidate-frontier generation. An intact seed restored candidates. Border trimming must preserve channel alignment and cannot fill interior holes."
+  },
+  "native_drag_smoothing": {
+    "evidence_class": "Historical native-edit finding",
+    "observed_affected_nodes": 9,
+    "mechanism": "Default drag smoothing distributes motion to neighboring nodes. Zero smoothing was used when the intended experiment moved only the selected vertex."
+  },
+  "normal_field_integration": {
+    "evidence_class": "Historical integration finding",
+    "blocks": 336,
+    "output_vertices": 1225,
+    "result": "Native grower consumed the CT-derived 3D normals. Central following improved; outer geometry still crossed folds."
+  }
+}

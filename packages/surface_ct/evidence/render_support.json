@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-12",
+  "comparison": "Identical scan and output location: cut-out 80x80 geometry versus full published parent plus native crop. All required CT chunks present.",
+  "rows": [
+    {
+      "slice": "00",
+      "interior_exact_fraction": 0.9907614234056542,
+      "interior_mean_abs_difference": 0.009238576594345824,
+      "interior_max_abs_difference": 1,
+      "interior_pearson": 0.9999979974003248,
+      "prior_blank_border_pixels": 126400,
+      "border_now_nonzero_pixels": 126400,
+      "new_nonzero_bbox_yxyx": [
+        0,
+        0,
+        1600,
+        1600
+      ],
+      "new_image_minmax": [
+        0,
+        255
+      ]
+    },
+    {
+      "slice": "01",
+      "interior_exact_fraction": 0.9907597797501644,
+      "interior_mean_abs_difference": 0.009240220249835635,
+      "interior_max_abs_difference": 1,
+      "interior_pearson": 0.9999979608218975,
+      "prior_blank_border_pixels": 126400,
+      "border_now_nonzero_pixels": 126400,
+      "new_nonzero_bbox_yxyx": [
+        0,
+        0,
+        1600,
+        1600
+      ],
+      "new_image_minmax": [
+        0,
+        255
+      ]
+    },
+    {
+      "slice": "02",
+      "interior_exact_fraction": 0.9905539119000657,
+      "interior_mean_abs_difference": 0.009446088099934254,
+      "interior_max_abs_difference": 1,
+      "interior_pearson": 0.9999978834959515,
+      "prior_blank_border_pixels": 126400,
+      "border_now_nonzero_pixels": 126400,
+      "new_nonzero_bbox_yxyx": [
+        0,
+        0,
+        1600,
+        1600
+      ],
+      "new_image_minmax": [
+        0,
+        255
+      ]
+    }
+  ],
+  "mechanism": "Keep required parent geometry and crop the render; extra CT alone did not repair the missing border."
+}

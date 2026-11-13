@@ -1,0 +1,8 @@
+{
+  "constrained_local_refinement": {
+    "evidence_class": "Two historical local update results",
+    "dt_only_relative_median_normal_error_reduction": 0.266698,
+    "separate_character_refinement_distant_coordinates_unchanged_bitwise": 45655,
+    "scope": "These are two distinct controls. The package supplies optimizer and inference primitives, not the experiment-specific refinement controller."
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "tests_run": 35,
+  "failures": 0,
+  "errors": 0,
+  "public_unit_tests": "PASS",
+  "status": "PASS",
+  "comparisons": {
+    "real_mapped_context_replay": {
+      "status": "PASS",
+      "rows": [
+        {
+          "component": "right_leg",
+          "pixel_mapping_max_difference": 2.938335228463984e-07,
+          "source_distance_voxels": 0.01924554069969807
+        },
+        {
+          "component": "left_leg",
+          "pixel_mapping_max_difference": 5.9504930050025e-07,
+          "source_distance_voxels": 0.04979716139946159
+        },
+        {
+          "component": "right_top",
+          "pixel_mapping_max_difference": 2.7058020179993036e-07,
+          "source_distance_voxels": 0.02531079744774264
+        },
+        {
+          "component": "left_top",
+          "pixel_mapping_max_difference": 5.19174776059117e-07,
+          "source_distance_voxels": 0.12651593983116602
+        }
+      ],
+      "all_crop_coordinates_exact": true
+    },
+    "real_parent_surface_distance_replay": {
+      "status": "PASS",
+      "points": 513,
+      "max_native_voxel_difference": 7.288709680253191e-08,
+      "reference_storage": "Archived float32 distance map; original computations use float64"
+    },
+    "real_hecate_profile_replay": {
+      "status": "PASS",
+      "profiles": 4,
+      "max_upper_bound_difference": 3.408393034476376e-08
+    },
+    "real_fibre_phase_replay": {
+      "status": "PASS",
+      "guides": [
+        {
+          "guide": "guide001",
+          "evaluation_points": 1157,
+          "quantiles": [
+            0.5,
+            0.9,
+            0.99,
+            1
+          ],
+          "control_centre_phase": 32.21598815917969,
+          "candidate_centre_phase": 32.31324005126953,
+          "centering": "Per-arm excluded-evaluation median, preserving input arithmetic dtype",
+          "control_absolute_phase_error": [
+            0.10466766357421875,
+            0.39446144104003916,
+            0.8201913452148439,
+            0.985107421875
+          ],
+          "candidate_absolute_phase_error": [
+            0.031803131103515625,
+            0.08956756591796876,
+            0.20398788452148459,
+            0.7111053466796875
+          ],
+          "p90_relative_reduction": 0.7729370818049682,
+          "scope": "Consistency along each guide; not anatomical sheet or ink acceptance."
+        },
+        {
+          "guide": "guide002",
+          "evaluation_points": 1164,
+          "quantiles": [
+            0.5,
+            0.9,
+            0.99,
+            1
+          ],
+          "control_centre_phase": 32.0484504699707,
+          "candidate_centre_phase": 32.1883544921875,
+          "centering": "Per-arm excluded-evaluation median, preserving input arithmetic dtype",
+          "control_absolute_phase_error": [
+            0.10407066345214844,
+            0.33327617645263674,
+            0.8319386291503904,
+            1.009185791015625
+          ],
+          "candidate_absolute_phase_error": [
+            0.020246505737304688,
+            0.07613258361816407,
+            0.14657348632812484,
+            0.16366958618164062
+          ],
+          "p90_relative_reduction": 0.7715630789199732,
+          "scope": "Consistency along each guide; not anatomical sheet or ink acceptance."
+        }
+      ]
+    },
+    "public_cli_contracts": {
+      "status": "PASS",
+      "help_commands": [
+        "hecate/depth_diagnostics.py",
+        "hecate/ct_depth_alignment.py",
+        "hecate/inspect_depth_tile.py",
+        "ink9_readers/window_inference.py",
+        "ink9_readers/map_contexts.py",
+        "canonical2_ink/readonly_weights.py",
+        "canonical2_ink/repair_zero_bias.py",
+        "canonical2_ink/directml_runtime.py",
+        "spiral_fitting/fiber_guidance.py",
+        "spiral_fitting/replay_spacing.py",
+        "surface_ct/surface_geometry.py",
+        "surface_ct/fractional_sampling.py",
+        "surface_ct/normal_tools.py",
+        "native_features/phase_artifacts.py"
+      ],
+      "data_replays": [
+        "hecate_profiles",
+        "fibre_phase_comparison"
+      ]
+    },
+    "real_volcomp_replay": {
+      "status": "PASS",
+      "decoded_sha256": "12ae4cab1b845caf9bce43bdd5d053ae330f4a830d45244371a433b195a5bed4",
+      "mode": 0,
+      "q": 8,
+      "version": "1.3.0",
+      "kernels": "c",
+      "output_bytes": 2097152,
+      "replay_exact": true,
+      "block_api_matches_full": true,
+      "smoothing": 0,
+      "decoder_and_checks_ms": 14.918000000000003,
+      "wasm_memory_bytes": 33554432
+    },
+    "ink9_real_model_port_parity": {
+      "status": "PASS",
+      "source": "Retained uint8 PHerc0813 native cube; one fixed 17x128x128 window",
+      "state_key": "model",
+      "compared_pixels": 16384,
+      "max_abs_difference": 0.0,
+      "scope": "Identical original versus portable inference computation; no reading-quality assessment."
+    }
+  },
+  "date": "2026-11-13",
+  "runtime": {
+    "python": "3.11",
+    "torch": "2.10.0 CPU",
+    "torch_threads": 1
+  },
+  "execution": {
+    "elapsed_seconds": 13.297000000005937,
+    "peak_process_tree_rss_bytes": 888860672,
+    "peak_process_tree_private_bytes": 932823040
+  }
+}

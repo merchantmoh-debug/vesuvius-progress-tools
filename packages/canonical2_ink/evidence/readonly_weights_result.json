@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-11",
+  "tensors": 978,
+  "weights_only_bytes": 522441788,
+  "exact_retained_prediction": true,
+  "maximum_probability_difference": 0.0,
+  "post_forward_private_bytes": 1634000896,
+  "scope": "Historical read-only inference, not training. Current package roundtrip/inference checks are separate."
+}

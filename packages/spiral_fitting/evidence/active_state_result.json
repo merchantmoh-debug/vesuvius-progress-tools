@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-11",
+  "fine_optimizer": {
+    "active_coordinates": 23781,
+    "total_coordinates": 288960000,
+    "moment_bytes": 190248,
+    "index_bytes": 190248,
+    "dense_moment_bytes_avoided": 2311489752,
+    "learning_rate": 6e-06,
+    "optimizer_step": 1
+  },
+  "update_seconds": 6.631858799955808,
+  "scope": "One local fitting update with fresh fine optimizer state. Moment storage only; not total process memory."
+}

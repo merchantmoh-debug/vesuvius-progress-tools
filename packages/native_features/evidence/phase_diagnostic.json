@@ -1,0 +1,57 @@
+{
+  "status": "MEASURED",
+  "cases": [
+    {
+      "case": "s0814_32_27_15",
+      "unpooled_replay_max_error": 0.0,
+      "common_points": 13483,
+      "constant_token_repeat_error": 0.0,
+      "constant_token_logit_phase_std": 0.38672858476638794,
+      "constant_token_logit_phase_range": [
+        -1.3640745878219604,
+        0.736187219619751
+      ],
+      "unpooled": {
+        "auroc": 0.8878729608496571,
+        "average_precision": 0.9892743010317295
+      },
+      "pooled": {
+        "auroc": 0.9997316764452623,
+        "average_precision": 0.9999836281177568
+      }
+    },
+    {
+      "case": "s1447_evaluation",
+      "unpooled_replay_max_error": 0.0,
+      "common_points": 13333,
+      "constant_token_repeat_error": 0.0,
+      "constant_token_logit_phase_std": 0.4287400543689728,
+      "constant_token_logit_phase_range": [
+        -1.141083836555481,
+        0.821375846862793
+      ],
+      "unpooled": {
+        "auroc": 0.5423879311830678,
+        "average_precision": 0.5362092976864441
+      },
+      "pooled": {
+        "auroc": 0.6788609731804018,
+        "average_precision": 0.7361930878560802
+      }
+    },
+    {
+      "case": "s0343_visual",
+      "unpooled_replay_max_error": 0.0,
+      "common_points": 6305,
+      "constant_token_repeat_error": 0.0,
+      "constant_token_logit_phase_std": 0.38349229097366333,
+      "constant_token_logit_phase_range": [
+        -1.1477479934692383,
+        0.8430216312408447
+      ]
+    }
+  ],
+  "scope": "Post-output development diagnosis on already exposed reference cases. No independent confirmation or target reading.",
+  "reading_assessment": "NOT_RUN",
+  "evidence_class": "Historical campaign result; numerical data only"
+}

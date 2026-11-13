@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "integer_raw_crop_bit_exact": true,
+  "affine_fractional_max_gray_error": 1.5109787767642047e-05,
+  "real_fractional_max_gray_error": 1.450166305971834e-05,
+  "trace_grid_scale": 2.222222222222222,
+  "trace_pitch_um": 19.2,
+  "crop_pitch_um": 9.6,
+  "adapter_sha256": "4c7b3471e2aacc33744b321fc15d1bbc96911b33bead3e9938630a46a8a4c6a8",
+  "source_volume_sha256": "4608cb66d76b78aa8d4731e709244525311e05cab83c187efeefa397153e82ee",
+  "scope": "CPU fractional coordinate sampling only. Same block reader, interpolation and normalization functions; no model or fiber accuracy claim."
+}

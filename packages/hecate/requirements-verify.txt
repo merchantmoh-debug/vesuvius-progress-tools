@@ -1,0 +1,3 @@
+-r requirements-directml.txt
+Pillow>=10,<13
+scipy>=1.11,<2

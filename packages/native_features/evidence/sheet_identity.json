@@ -1,0 +1,17 @@
+{
+  "status": "MEASURED",
+  "points_total": 516,
+  "test_points": 478,
+  "test_same_band": 291,
+  "test_neighbor_band": 187,
+  "anchor_cosine": -0.4877181053161621,
+  "embedding_auroc": 1.0,
+  "distance_baseline_auroc": 1.0,
+  "embedding_sign_agreement": 1.0,
+  "distance_sign_agreement": 0.9916317991631799,
+  "median_score_same": 1.4899816513061523,
+  "median_score_neighbor": -1.4303340911865234,
+  "scope": "Local agreement with physically inspected fiber/M7band assignments; not independent groundtruth, exactrecto orink.",
+  "training": false,
+  "evidence_class": "Historical campaign result; numerical data only"
+}

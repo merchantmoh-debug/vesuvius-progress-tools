@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-18",
+  "scroll": "PHerc1218",
+  "matched_points": 463625,
+  "points_above_one_voxel_before": 17141,
+  "points_above_one_voxel_after": 1,
+  "before": {
+    "status": "MEASURED",
+    "rendered_points": 463625,
+    "source_triangles": 2660,
+    "tested_pairs": 3339696,
+    "distance_quantiles_voxels": [
+      9.128272056500773e-08,
+      0.0030269132704561705,
+      0.19743022066438567,
+      0.6588981873045943,
+      1.5517684673978864,
+      7.235416438781329
+    ],
+    "fraction_gt_one_voxel": 0.03697169048260987,
+    "fraction_gt_quarter_voxel": 0.4137740630897816,
+    "worst_render_xy": [
+      166,
+      202
+    ],
+    "worst_world_xyz": [
+      2981.824951171875,
+      4073.579345703125,
+      7392.8623046875
+    ],
+    "exhaustive_checks": 12,
+    "scope": "Numericalrepresentation fidelity, not actualpaper/rectoface truth. Points are the exactfloat32coordinates consumed by the nativefeaturequery; no newmodel inference ornetwork."
+  },
+  "matched_after": {
+    "status": "MEASURED",
+    "rendered_points": 463625,
+    "source_triangles": 2660,
+    "tested_pairs": 3262173,
+    "distance_quantiles_voxels": [
+      1.2167215565365594e-09,
+      5.68108460846389e-06,
+      0.0038551775707082883,
+      0.06291600602619804,
+      0.19711023134043187,
+      1.0148213882567854
+    ],
+    "fraction_gt_one_voxel": 2.1569156106767325e-06,
+    "fraction_gt_quarter_voxel": 0.005439741170126719,
+    "worst_render_xy": [
+      193,
+      204
+    ],
+    "worst_world_xyz": [
+      3006.968017578125,
+      4074.125,
+      7381.044921875
+    ],
+    "exhaustive_checks": 12,
+    "scope": "Dense native bilinearpoint distance to theunchanged parentmesh; matched coordinate population. Numericalfidelity only."
+  },
+  "scope": "Same source surface and UV solution; physical sheet identity is separate."
+}

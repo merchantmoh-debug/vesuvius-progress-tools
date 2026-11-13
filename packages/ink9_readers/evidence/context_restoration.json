@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "scroll": "PHerc0343",
+  "components": [
+    {
+      "component": "left_top",
+      "preflatten_peak": 0.6943382024765015,
+      "postflatten_assembled_peak_same_region": 0.7097395658493042,
+      "mapped_context_peak": 0.7328824400901794,
+      "mapped_mean": 0.489760160446167,
+      "spatial_match_to_preflatten": 0.9881043297124243
+    },
+    {
+      "component": "right_top",
+      "preflatten_peak": 0.7875780463218689,
+      "postflatten_assembled_peak_same_region": 0.7802137136459351,
+      "mapped_context_peak": 0.7834960222244263,
+      "mapped_mean": 0.5584337711334229,
+      "spatial_match_to_preflatten": 0.997084280400228
+    },
+    {
+      "component": "left_leg",
+      "preflatten_peak": 0.7146632671356201,
+      "postflatten_assembled_peak_same_region": 0.7967481017112732,
+      "mapped_context_peak": 0.6997707486152649,
+      "mapped_mean": 0.40187355875968933,
+      "spatial_match_to_preflatten": 0.9926477204740431
+    },
+    {
+      "component": "right_leg",
+      "preflatten_peak": 0.7772179245948792,
+      "postflatten_assembled_peak_same_region": 0.5053656101226807,
+      "mapped_context_peak": 0.7920774817466736,
+      "mapped_mean": 0.4722053110599518,
+      "spatial_match_to_preflatten": 0.9934643549678251
+    }
+  ],
+  "fixed": "Original scan values, model weights and normalization. Window centres mapped through geometry.",
+  "scope": "Historical known-component pattern restoration. No universal orientation/window rule."
+}

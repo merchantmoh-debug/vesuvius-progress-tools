@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "source": "PHerc0139 published real-CT crop from the awarded October example",
+  "input_sha256": "04224e26f565c4a5c1ff7f018e4904a381e7d0d6a217a6ade09ab6ec313e312a",
+  "input_shape": [
+    16,
+    96,
+    96
+  ],
+  "all_9216_output_pixels_exact": true,
+  "first_crop_forwards": 2,
+  "baseline_forwards": 4,
+  "expanded": {
+    "tiles": 4,
+    "model_forwards": 2,
+    "forward_seconds": [
+      0.9792193999965093,
+      0.9798536000016611
+    ],
+    "cache_hits": 2,
+    "cache_misses": 2,
+    "cache_evictions": 0,
+    "cache_prediction_bytes": 72848,
+    "cache_limit_bytes": 1048576
+  },
+  "fully_cached_replay": {
+    "tiles": 4,
+    "model_forwards": 0,
+    "forward_seconds": [],
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "cache_evictions": 0,
+    "cache_prediction_bytes": 72848,
+    "cache_limit_bytes": 1048576
+  },
+  "interrupted_resume": {
+    "tiles": 4,
+    "model_forwards": 3,
+    "forward_seconds": [
+      0.9126818000004278,
+      0.9250565000038478,
+      0.9118098000035388
+    ],
+    "cache_hits": 1,
+    "cache_misses": 3,
+    "cache_evictions": 0,
+    "cache_prediction_bytes": 72848,
+    "cache_limit_bytes": 1048576
+  },
+  "changed_input": {
+    "tiles": 4,
+    "model_forwards": 1,
+    "forward_seconds": [
+      0.9122490999943693
+    ],
+    "cache_hits": 3,
+    "cache_misses": 1,
+    "cache_evictions": 0,
+    "cache_prediction_bytes": 91060,
+    "cache_limit_bytes": 1048576
+  },
+  "baseline_seconds": 3.9240382999996655,
+  "expanded_seconds": 1.9693909000052372,
+  "providers": [
+    "DmlExecutionProvider"
+  ],
+  "scope": "Cache correctness and avoided model calls on this case. No new ink accuracy claim. Timing excludes graph/session loading; one sequential run, not a stable speed benchmark.",
+  "execution": {
+    "runtime": "1.24.4",
+    "provider": "DmlExecutionProvider:0",
+    "graph_sha256": "f13befb8d01a621db9b440e5959c0f638b2b15be5cf2f7e411b8150c620ff3f4",
+    "system": "Windows 11; Ryzen 5 8540U; Radeon 740M; 16 GB RAM",
+    "runner": "Bounded local integration runner using the unchanged awarded helper as the fresh baseline."
+  },
+  "historical_larger_field": {
+    "scroll": "PHerc0813",
+    "total_tiles": 1517,
+    "reused_tiles": 285,
+    "new_forwards": 1232,
+    "exact_shared_interior_pixels": 258048,
+    "exact_complete_context_preview_pixels": 726912,
+    "scope": "Retained October 22 run of the earlier internal implementation; not relabelled as a benchmark of this new portable package."
+  },
+  "portable_cli": {
+    "status": "PASS",
+    "source": "PHerc0139 published real-CT crop from the awarded October example",
+    "input_sha256": "04224e26f565c4a5c1ff7f018e4904a381e7d0d6a217a6ade09ab6ec313e312a",
+    "input_shape": [
+      16,
+      96,
+      96
+    ],
+    "all_9216_output_pixels_exact": true,
+    "first_crop_forwards": 2,
+    "baseline_forwards": 4,
+    "expanded": {
+      "tiles": 4,
+      "model_forwards": 2,
+      "forward_seconds": [
+        0.9607003999990411,
+        0.933908999999403
+      ],
+      "cache_hits": 2,
+      "cache_misses": 2,
+      "cache_evictions": 0,
+      "cache_prediction_bytes": 72848,
+      "cache_limit_bytes": 1048576
+    },
+    "fully_cached_replay": {
+      "tiles": 4,
+      "model_forwards": 0,
+      "forward_seconds": [],
+      "cache_hits": 4,
+      "cache_misses": 0,
+      "cache_evictions": 0,
+      "cache_prediction_bytes": 72848,
+      "cache_limit_bytes": 1048576
+    },
+    "interrupted_resume": {
+      "tiles": 4,
+      "model_forwards": 3,
+      "forward_seconds": [
+        0.9315949000010733,
+        0.9345954999953392,
+        0.9225604999955976
+      ],
+      "cache_hits": 1,
+      "cache_misses": 3,
+      "cache_evictions": 0,
+      "cache_prediction_bytes": 72848,
+      "cache_limit_bytes": 1048576
+    },
+    "changed_input": {
+      "tiles": 4,
+      "model_forwards": 1,
+      "forward_seconds": [
+        0.9181564999962575
+      ],
+      "cache_hits": 3,
+      "cache_misses": 1,
+      "cache_evictions": 0,
+      "cache_prediction_bytes": 91060,
+      "cache_limit_bytes": 1048576
+    },
+    "baseline_seconds": 3.923829300001671,
+    "expanded_seconds": 1.9071928000048501,
+    "providers": [
+      "DmlExecutionProvider"
+    ],
+    "scope": "Cache correctness and avoided model calls on this case. No new ink accuracy claim. Timing excludes graph/session loading; one sequential run, not a stable speed benchmark.",
+    "baseline": "New helper with cache disabled; independent first run also compared with unchanged awarded helper."
+  }
+}

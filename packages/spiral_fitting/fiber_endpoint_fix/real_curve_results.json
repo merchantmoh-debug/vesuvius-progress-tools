@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "upstream_blob_sha": "6019b954437414fde83f4d554941462bded024a5",
+  "upstream_url": "https://github.com/ScrollPrize/villa/blob/main/spiral-fitting/spiral_helpers.py",
+  "scroll": "PHerc0813",
+  "scan": "20250821151723",
+  "coordinates": "native XYZ float32",
+  "voxel_um": 9.362,
+  "spacing_native_voxels": 16,
+  "rows": [
+    {
+      "guide": "guide_001",
+      "input_sha256": "b51a7dadf4256dd37af2ff548b1abf1788ba310ba4c1e7450ce37417c7259b28",
+      "points": 1265,
+      "baseline_kept": 78,
+      "patched_kept": 79,
+      "baseline_last_index": 1249,
+      "true_last_index": 1264,
+      "lost_tail_arc_native_voxels": 14.868882179260254,
+      "lost_tail_chord_native_voxels": 14.83528995513916,
+      "existing_retained_points_exact": true
+    },
+    {
+      "guide": "guide_002",
+      "input_sha256": "49ed2ef614c52718cb96deeb195ac7d22ee98c9ddffa9d14b74de938c0f4a8dc",
+      "points": 1271,
+      "baseline_kept": 79,
+      "patched_kept": 80,
+      "baseline_last_index": 1269,
+      "true_last_index": 1270,
+      "lost_tail_arc_native_voxels": 0.544221818447113,
+      "lost_tail_chord_native_voxels": 0.544221818447113,
+      "existing_retained_points_exact": true
+    }
+  ],
+  "scope": "Current decimator replay on two retained real curves, with all prior kept points unchanged. This check does not claim new fitted-surface or ink improvement."
+}

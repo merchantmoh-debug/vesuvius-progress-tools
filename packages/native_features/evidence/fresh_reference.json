@@ -1,0 +1,19 @@
+{
+  "status": "MEASURED",
+  "metrics": {
+    "earlier_linear": {
+      "auroc": 0.3815595824890292,
+      "average_precision": 0.3394739093778639
+    },
+    "phase_trained_decoder": {
+      "auroc": 0.36970792257679536,
+      "average_precision": 0.3067797917444874
+    }
+  },
+  "coordinate_parity_max_gray_error": 0.7619857788085938,
+  "points": 12718,
+  "new_CT_bytes": 16777216,
+  "scope": "New spatial test for these frozen readouts, on reviewed model-informed annotations. Not proof of teacher-pretraining exclusion, independent physical ink truth, or cross-scroll generalization.",
+  "reading_assessment": "NOT_RUN",
+  "evidence_class": "Historical campaign result; numerical data only"
+}

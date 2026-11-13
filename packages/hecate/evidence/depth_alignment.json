@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "scroll": "PHerc0139",
+  "kind": "Historical real-data result",
+  "model_to_model_correlation_before": 0.56774039442279,
+  "model_to_model_correlation_after": 0.8018313583549903,
+  "native_layer_centre": 12.119788961883252,
+  "observation": "Known upper components strengthen after physical depth correction; a connection remains broken.",
+  "scope": "One exposed known-character comparison, not a cross-scroll accuracy estimate."
+}

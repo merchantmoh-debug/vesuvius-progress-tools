@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-11",
+  "runtime": "1.24.4",
+  "cpu_fallback_disabled": true,
+  "executed_providers": {
+    "DmlExecutionProvider": 4
+  },
+  "controls": {
+    "reference": {
+      "status": "PASS",
+      "exact_repeat": true,
+      "pearson_vs_cpu": 0.9999383121909721,
+      "MAE_vs_cpu": 0.0034102266654372215,
+      "strong_ink_retention_vs_cpu": 1.0,
+      "max_difference_vs_cpu": 0.019573092460632324,
+      "forward_seconds": [
+        4.422149199992418,
+        3.6202714999672025
+      ]
+    },
+    "hybrid": {
+      "status": "PASS",
+      "exact_repeat": true,
+      "pearson_vs_cpu": 0.9999974443312537,
+      "MAE_vs_cpu": 0.0005544685991480947,
+      "strong_ink_retention_vs_cpu": 1.0,
+      "max_difference_vs_cpu": 0.0036443471908569336,
+      "forward_seconds": [
+        3.63018610002473,
+        3.668605500017293
+      ]
+    }
+  },
+  "zero_bias_repair": {
+    "removed": 168,
+    "valid_biases_preserved": 2,
+    "original_parameters_unchanged": true
+  },
+  "scope": "Historical calibrated full-model backend result; not CPU byte identity or a new accuracy model."
+}
